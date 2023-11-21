@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+body {
+  background-color: #f5f118;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #494a4b;
+  font-family:  cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    min-height: 100vh;
+  }
+}
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: white;
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  animation: floatUpDown 2s infinite;
+}
+
+
+ 
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+ button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #3071a9;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+ 
